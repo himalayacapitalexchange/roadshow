@@ -1,0 +1,993 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Roadshow Calendar</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--font awesome code-->
+    <script src="https://use.fontawesome.com/cff3954bc0.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+
+    <link rel="icon" type="image/jpg" sizes="192x192" href="image/logo1.jpg">
+    <link rel="icon" type="image/jpg" sizes="32x32" href="image/logo1.jpg">
+    <link rel="icon" type="image/jpg" sizes="96x96" href="image/logo1.jpg">
+    <link rel="icon" type="image/jpg" sizes="16x16" href="image/logo1.jpg">
+    <!--main css-->
+    <link href="css/custom.css" rel="stylesheet">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <style>
+.mySlides {display:none;}
+</style>
+  </head>
+  <body>
+<!--navbar-->
+
+<nav class="navbar navbar-inverse" role="navigation" style="background-color:#4f1883;border-color:#4f1883;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <div class="navbar-brand">
+        <img src="image/hcx.png" class="img-responsive" style="width:80px; height:70px;" alt="responsive">
+      </div>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="lis"><a style="color:white;" href="http://community.capitalexchange.tech">HCX Meetups</a></li>
+        <li class="lis3"><a style="color:white;" href="#program">Roadshow Video</a></li>
+        <li class="lis4"><a style="color:white;" href="#speakers">Calendar</a></li>
+        <li class="lis"><a style="color:white;" href="#roadshow">About</a></li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--
+<div class="container-fluid" style="background:#2c9eff center center repeat;
+background-size: contain;color:white;min-height:60px;padding:15px;">
+
+<div id="mySidenav" class="sidenav">
+  <p><center style="font-size:20px;"><strong>Himalaya Capital Exchange</strong></center>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  </p>
+  <a class="lis3" href="#roadshow">Roadshow video</a>
+  <a class="lis4" href="#portfolio">Calendar</a>
+  <a class="lis5" href="#contact">Contact</a>
+</div>
+<span style="font-size:20px;cursor:pointer;color:white;" onclick="openNav()">&#9776; MENU</span>
+<span style="float:right;font-size:20px;color:white;"><strong>HCX&nbsp;</strong></span>
+</div>-->
+
+<!--HEADER-->
+
+<header id="masthead">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <br><br>
+            <h6 class="text-uppercase" style="color:#d8d5d5;">
+              <strong>HIMALAYA CAPITAL EXCHANGE</strong>
+            </h6>
+
+              <p class="title" style="color:#d8d5d5;">A global borderless marketplace for capital!<br>Himalaya Capital Exchange is a project aimed at creating a
+tokenised platform for Initial Public Offerings (IPOs) on a
+global, borderless, stock exchange. </p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <center>
+            <div class="col-lg-8 col-lg-offset-2">
+              <img src="image/hcx.png" class="img-responsive" style="height:350px;" alt="responsive">
+            </div>
+          </center>
+          </div>
+        </div>
+      </div>
+    </header>
+    <br><br><br>
+
+    <section>
+     <div class="container" style="width:100%;">
+       <div class="row">
+         <div class="col-lg-12">
+         <div class=" col-lg-offset-3 col-lg-6  col-md-offset-2 col-md-8  col-sm-offset-2 col-sm-8">
+           <img src="image/flyer.jpg" style="margin:5px;" class="img-responsive img-rounded" alt="responsive">
+         </div>
+         <div class=" col-lg-offset-3 col-lg-6  col-md-offset-2 col-md-8  col-sm-offset-2 col-sm-8" style="font-size:20px;color:black;text-align:justify;">
+           <br>
+           In 11 megapolis such as London, Zurich, Geneva, Switzerland, Shanghai, Hong Kong, Dubai, Seoul, Tokyo, Singapore and Shenzhen,
+            this Epic Roadshow 2019 awaits you all. Join in to be a part of the biggest Security Token Investor roadshow.
+
+          </div>
+         </div>
+     </div>
+   </div>
+   </section>
+
+    <div class="jumbotron" style="background-color:rgba(0,0,0,0);">
+      <center>
+      <p style="font-size:30px;color:black;">About Roadshow</p>
+    </center>
+    </div>
+
+    <section id="about">
+     <div class="container" style="width:100%;">
+       <div class="row">
+         <div class="col-lg-12">
+         <div class="col-lg-6">
+           <img src="image/roadshow_map.png" style="margin:5px;" class="img-responsive img-rounded" alt="responsive">
+         </div>
+         <div class="col-lg-6" style="font-size:20px;color:black;text-align:justify;">
+           Previous ICO showcases have attracted
+           thousands of participants and have
+           featured the world’s most passionate
+           crypto enthusiasts and prominent experts,
+           and covered more than 10 countries
+           in megapolis such as London,
+           Dubai, Istanbul, Kiev, Paris, Chennai.<br>
+           The epic Security Token Investor Roadshow will begin in January-February 2019 where one can pitch to crypto funds around the globe.
+           The tour kicks off with London on 14th January
+            2019 followed by Geneva – 16th January,
+            Zurich – 17th January,St. Moritz, Switzerland – 19th-20th January.
+            Covering major places in Asia, the roadshow will take place in Tokyo, Shanghai, Seoul, Hongkong,
+            Shenzhen, Singapore and Dubai.
+
+          </div>
+         </div>
+     </div>
+   </div>
+   </section>
+   <br><br>
+
+   <section style="background:url('image/ba.png') center center no-repeat;">
+   <div class="container" style="padding:40px;">
+     <div class="row">
+       <div class="col-lg-2 col-md-2 col-sm-2">
+
+       </div>
+       <div class="col-lg-8 col-md-8 col-sm-8">
+         <img src="image/stw.png" class="img-responsive" alt="res">
+       </div>
+       <div class="col-lg-2 col-md-2 col-sm-2">
+
+       </div>
+     </div>
+   </div>
+ </section>
+
+    <div class="jumbotron" style="background-color:rgba(0,0,0,0);">
+      <center>
+      <p style="font-size:30px;color:black;">Roadshow Video</p>
+    </center>
+    </div>
+
+    <section id="roadshow">
+    <div class="container">
+      <iframe width="100%" class="swiss" src="https://www.youtube.com/embed/aOIrDDSw4Sc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <br>
+    </div>
+  </section>
+
+  <div class="jumbotron" style="background-color:rgba(0,0,0,0);">
+    <center>
+    <p style="font-size:30px;color:black;">What you can expect from the Roadshow??</p>
+  </center>
+  </div>
+
+  <section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-md-2 col-sm-2">
+
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-8">
+        <ul style="font-size:17px;">
+          <li>Events custom-made for you and tailored to the
+  regional community</li>
+          <li>Other participating ICOs so that the content is more
+  interesting to the audience</li>
+          <li>Engaged Audience of 100 - 300 in major cities</li>
+          <li>Where possible, we try to invite investor community
+  though we cannot guarantee the nature of audience</li>
+          <li>Digital and social media marketing of the event and
+  sponsors where appropriate</li>
+          <li>Sponsor Showcase at the event - Sponsor gets 30
+  minutes of stage time with the audience in each city.</li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2">
+
+      </div>
+    </div>
+  </div>
+</section>
+
+  <div class="jumbotron" style="background-color:rgba(0,0,0,0);">
+    <center>
+    <p style="font-size:30px;color:black;">HCX Security Token Investor Roadshow Calendar 2019</p>
+  </center>
+  </div>
+
+
+  <section class="no-padding" id="portfolio" style="background-color:#4f1883;">
+        <div class="container-fluid">
+          <center><h3>EUROPE ROADSHOW 2019</h3></center>
+          <br>
+            <div class="row no-gutter popup-gallery">
+              <div class="col-lg-2 col-md-2 col-sm-2">
+
+              </div>
+              <div class="col-lg-8 col-md-8 col-sm-8" style="background-color:white;color:grey;">
+              <div class="col-lg-4 col-md-4 col-sm-4" style="padding-left:0px;padding-right:0px;">
+                <center>
+                  <a href="https://www.engadin.stmoritz.ch/winter/en/news-events/topevents/la-diagonela-en/" class="portfolio-box">
+                      <img src="image/london.jpg" class="img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-category text-faded" >
+                                  LONDON
+                              </div>
+
+                          </div>
+                      </div>
+                  </a>
+                </center>
+
+              </div>
+              <div class="col-lg-8 col-md-8 col-sm-8">
+                <br>
+                <center><h3>14 January, 2019</h3>
+                  <h4>LONDON</h4></center>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+
+          <div class="row no-gutter popup-gallery">
+            <div class="col-lg-2 col-md-2 col-sm-2">
+
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-8" style="background-color:white;color:grey;">
+            <div class="col-lg-4 col-md-4 col-sm-4" style="padding-left:0px;padding-right:0px;">
+              <center>
+                <a href="https://www.engadin.stmoritz.ch/winter/en/news-events/topevents/la-diagonela-en/" class="portfolio-box">
+                    <img src="image/geneva.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded" >
+                                GENEVA
+                            </div>
+
+                        </div>
+                    </div>
+                </a>
+              </center>
+
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-8">
+              <br>
+              <center><h3>16 January, 2019</h3>
+                <h4>GENEVA</h4></center>
+            </div>
+          </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row no-gutter popup-gallery">
+          <div class="col-lg-2 col-md-2 col-sm-2">
+
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-8" style="background-color:white;color:grey;">
+          <div class="col-lg-4 col-md-4 col-sm-4" style="padding-left:0px;padding-right:0px;">
+            <center>
+              <a href="https://www.engadin.stmoritz.ch/winter/en/news-events/topevents/la-diagonela-en/" class="portfolio-box">
+                  <img src="image/zurich.jpg" class="img-responsive" alt="">
+                  <div class="portfolio-box-caption">
+                      <div class="portfolio-box-caption-content">
+                          <div class="project-category text-faded" >
+                              ZURICH
+                          </div>
+
+                      </div>
+                  </div>
+              </a>
+            </center>
+
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-8">
+            <br>
+            <center><h3>17 January, 2019</h3>
+              <h4>ZURICH</h4></center>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+
+      <div class="row no-gutter popup-gallery">
+        <div class="col-lg-2 col-md-2 col-sm-2">
+
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-8" style="background-color:white;color:grey;">
+        <div class="col-lg-4 col-md-4 col-sm-4" style="padding-left:0px;padding-right:0px;">
+          <center>
+            <a href="https://www.engadin.stmoritz.ch/winter/en/news-events/topevents/la-diagonela-en/" class="portfolio-box">
+                <img src="image/swiss.jpg" class="img-responsive" alt="">
+                <div class="portfolio-box-caption">
+                    <div class="portfolio-box-caption-content">
+                        <div class="project-category text-faded" >
+                            SWITZERLAND
+                        </div>
+
+                    </div>
+                </div>
+            </a>
+          </center>
+
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-8">
+          <br>
+          <center><h3>19-20 January, 2019</h3>
+            <h4>SWITZERLAND</h4></center>
+        </div>
+      </div>
+    </div>
+    <br>
+    <center><h3>ASIA ROADSHOW 2019 (TENTATIVE CALENDAR)</h3></center>
+    <br>
+
+    <div class="row no-gutter popup-gallery">
+      <div class="col-lg-2 col-md-2 col-sm-2">
+
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-8" style="background-color:white;color:grey;">
+      <div class="col-lg-4 col-md-4 col-sm-4" style="padding-left:0px;padding-right:0px;">
+        <center>
+          <a href="https://www.engadin.stmoritz.ch/winter/en/news-events/topevents/la-diagonela-en/" class="portfolio-box">
+              <img src="image/tokyo.jpg" class="img-responsive" alt="">
+              <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                      <div class="project-category text-faded" >
+                          TOKYO
+                      </div>
+
+                  </div>
+              </div>
+          </a>
+        </center>
+
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-8">
+        <br>
+        <center><h3>31 January, 2019</h3>
+          <h4>TOKYO</h4></center>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <div class="row no-gutter popup-gallery">
+    <div class="col-lg-2 col-md-2 col-sm-2">
+
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8" style="background-color:white;color:grey;">
+    <div class="col-lg-4 col-md-4 col-sm-4" style="padding-left:0px;padding-right:0px;">
+      <center>
+        <a href="https://www.engadin.stmoritz.ch/winter/en/news-events/topevents/la-diagonela-en/" class="portfolio-box">
+            <img src="image/shanghai.jpg" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                    <div class="project-category text-faded" >
+                        SHANGHAI
+                    </div>
+
+                </div>
+            </div>
+        </a>
+      </center>
+
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8">
+      <br>
+      <center><h3>02 February, 2019</h3>
+        <h4>SHANGHAI</h4></center>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+
+<div class="row no-gutter popup-gallery">
+  <div class="col-lg-2 col-md-2 col-sm-2">
+
+  </div>
+  <div class="col-lg-8 col-md-8 col-sm-8" style="background-color:white;color:grey;">
+  <div class="col-lg-4 col-md-4 col-sm-4" style="padding-left:0px;padding-right:0px;padding-bottom:0px;">
+    <center>
+      <a href="https://www.engadin.stmoritz.ch/winter/en/news-events/topevents/la-diagonela-en/" class="portfolio-box">
+          <img src="image/seoul.jpg" class="img-responsive" alt="">
+          <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded" >
+                      SEOUL
+                  </div>
+
+              </div>
+          </div>
+      </a>
+    </center>
+
+  </div>
+  <div class="col-lg-8 col-md-8 col-sm-8">
+    <br>
+    <center><h3>05 February, 2019</h3>
+      <h4>SEOUL</h4></center>
+  </div>
+</div>
+</div>
+<br>
+<br>
+
+<div class="row no-gutter popup-gallery">
+  <div class="col-lg-2 col-md-2 col-sm-2">
+
+  </div>
+  <div class="col-lg-8 col-md-8 col-sm-8" style="background-color:white;color:grey;">
+  <div class="col-lg-4 col-md-4 col-sm-4" style="padding-left:0px;padding-right:0px;">
+    <center>
+      <a href="https://www.engadin.stmoritz.ch/winter/en/news-events/topevents/la-diagonela-en/" class="portfolio-box">
+          <img src="image/hk.jpg" class="img-responsive" alt="">
+          <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded" >
+                      HONGKONG
+                  </div>
+
+              </div>
+          </div>
+      </a>
+    </center>
+
+  </div>
+  <div class="col-lg-8 col-md-8 col-sm-8">
+    <br>
+    <center><h3>08 February, 2019</h3>
+      <h4>HONGKONG</h4></center>
+  </div>
+</div>
+</div>
+<br>
+<br>
+
+<div class="row no-gutter popup-gallery">
+  <div class="col-lg-2 col-md-2 col-sm-2">
+
+  </div>
+  <div class="col-lg-8 col-md-8 col-sm-8" style="background-color:white;color:grey;">
+  <div class="col-lg-4 col-md-4 col-sm-4" style="padding-left:0px;padding-right:0px;">
+    <center>
+      <a href="https://www.engadin.stmoritz.ch/winter/en/news-events/topevents/la-diagonela-en/" class="portfolio-box">
+          <img src="image/shen.jpg" class="img-responsive" alt="">
+          <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded" >
+                      SHENZHEN
+                  </div>
+
+              </div>
+          </div>
+      </a>
+    </center>
+
+  </div>
+  <div class="col-lg-8 col-md-8 col-sm-8">
+    <br>
+    <center><h3>09 February, 2019</h3>
+      <h4>SHENZHEN</h4></center>
+  </div>
+</div>
+</div>
+<br>
+<br>
+
+<div class="row no-gutter popup-gallery">
+  <div class="col-lg-2 col-md-2 col-sm-2">
+
+  </div>
+  <div class="col-lg-8 col-md-8 col-sm-8" style="background-color:white;color:grey;">
+  <div class="col-lg-4 col-md-4 col-sm-4" style="padding-left:0px;padding-right:0px;">
+    <center>
+      <a href="https://www.engadin.stmoritz.ch/winter/en/news-events/topevents/la-diagonela-en/" class="portfolio-box">
+          <img src="image/singapore.jpg" class="img-responsive" alt="">
+          <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded" >
+                      SINGAPORE
+                  </div>
+
+              </div>
+          </div>
+      </a>
+    </center>
+
+  </div>
+  <div class="col-lg-8 col-md-8 col-sm-8">
+    <br>
+    <center><h3>11 February, 2019</h3>
+      <h4>SINGAPORE</h4></center>
+  </div>
+</div>
+</div>
+<br>
+<br>
+
+<div class="row no-gutter popup-gallery">
+  <div class="col-lg-2 col-md-2 col-sm-2">
+
+  </div>
+  <div class="col-lg-8 col-md-8 col-sm-8" style="background-color:white;color:grey;">
+  <div class="col-lg-4 col-md-4 col-sm-4" style="padding-left:0px;padding-right:0px;">
+    <center>
+      <a href="https://www.engadin.stmoritz.ch/winter/en/news-events/topevents/la-diagonela-en/" class="portfolio-box">
+          <img src="image/dubai.jpg" class="img-responsive" alt="">
+          <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded" >
+                      DUBAI
+                  </div>
+
+              </div>
+          </div>
+      </a>
+    </center>
+
+  </div>
+  <div class="col-lg-8 col-md-8 col-sm-8">
+    <br>
+    <center><h3>13-14 February, 2019</h3>
+      <h4>DUBAI</h4></center>
+  </div>
+</div>
+</div>
+<br>
+<br>
+
+
+</div>
+</section>
+<!--
+
+<section id="speaker-form" style="color:black;">
+    <div class="container-fluid">
+      <div class="row" style="margin-bottom:0px;">
+    <div class="col-lg-4" style="padding:0px;margin:0px;">
+      <img class="img-responsive" style="width:100%;" src="image/hero1.jpg" alt="responsive">
+    </div>
+    <div class="col-lg-8" style="padding:0px;margin:0px;">
+      <div class="jumbotron" style="margin-bottom:0px;">
+
+        <center>
+      <h2 style="font-size:18px;">&nbsp;It's now or never</h2>
+      <h3 style="color:gray;font-size:12px;color:#a0a0a0;">&nbsp;Dates</h3>
+      <p style="font-size:14px;"> &nbsp;January-February, 2019</p>
+      <h1 style="font-size:18px;">&nbsp;Apply to join our Roadshow 2019!!</h1>
+    </center>
+
+    <div style="padding:0px;margin:0px;height:40px;">
+        <center>
+      <a href="form.php" class="btn btn-primary" style="background-color: #009ddb;border:#009ddb;min-height:20px;font-size:20px;">Apply Now</a>
+  </center>
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+-->
+  <!--funds-->
+<!--
+    <section id="funds" style="color:black;">
+      <div class="container-fluid">
+        <div class="row" style="margin-bottom:0px;">
+      <div class="col-lg-4" style="padding:0px;margin:0px;">
+        <img class="img-responsive" style="width:100%;" src="image/hero2.jpg" alt="responsive">
+      </div>
+      <div class="col-lg-8" style="padding:0px;margin:0px;">
+        <div class="jumbotron" style="margin-bottom:0px;">
+          <center>
+        <h2 style="font-size:18px;">&nbsp;We can't wait to meet you in 2019...</h2>
+        <h3 style="color:gray;font-size:12px;color:#a0a0a0;">&nbsp;Dates</h3>
+        <p style="font-size:14px;"> &nbsp;January-February, 2019</p>
+        <h1 style="font-size:18px;">&nbsp;A call to all the investors. Send us your details right way...</h1>
+      </center>
+
+
+        <div style="padding:0px;margin:0px;height:40px;">
+          <center>
+          <a href="funds.php" class="btn btn-primary" style="background-color: #009ddb;border:#009ddb;min-height:40px;font-size:20px;">Apply Now</a>
+          </center>
+          </div>
+      </div>
+      </div>
+
+      </div>
+      </div>
+    </section>
+  -->
+
+    <br>
+    <br>
+
+
+    <section class="no-padding" id="portfolio" style="background-color:#f6f6f6;">
+  <br><br><br>
+        <div class="container-fluid">
+
+            <div class="row no-gutter popup-gallery">
+              <div class="col-lg-2 col-md-1 col-sm-1">
+
+
+              </div>
+
+                <div class="col-lg-4 col-md-5 col-sm-5" style="padding:6px;">
+
+                    <!--<center>
+                    <a href="product.html" class="portfolio-box">
+                        <img src="image/road_map.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded" >
+                                    HCX Product Roadmap
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                  </center>-->
+                  <div class="thumbnail ro" style="background-color:white;padding-top:0px;padding-left:0px;padding-right:0px;">
+                    <a href="#" class="portfolio-box">
+                        <img src="image/pitch.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                    <div class="caption">
+                      <h4 class="card-title" style="color:#283c64;">
+                        <center>
+                          <h1 style="font-size:18px;">&nbsp; <br><strong> Call for ICOs, STOs to pitch to funds and investors around the globe.</strong> </h1>
+                          <h3 style="color:gray;font-size:12px;color:#a0a0a0;">&nbsp;Dates</h3>
+                          <p style="font-size:14px;"> &nbsp;January-February, 2019</p>
+                          <h2 style="font-size:18px;">&nbsp;It's now or never. Hurry Up!</h2>
+                          <a href="form.php" class="btn btn-primary" style="background-color:rgba(0,0,0,0);border-color:#888888;box-shadow: 5px 10px 18px #888888;color:#283c64;">Apply Now</a>
+                      </h4>
+
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-5" style="padding:6px;">
+                  <!--  <center>
+                    <a href="timeline.html" class="portfolio-box">
+                        <img src="image/timeline.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Origin Of Security Token
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                  </center>-->
+                  <div class="thumbnail ti" style="background-color:white;padding-top:0px;padding-left:0px;padding-right:0px;">
+                    <a href="#" class="portfolio-box">
+                        <img src="image/investor.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                    <div class="caption">
+                      <h4 class="card-title" style="color:#283c64;">
+                        <center>
+                          <h1 style="font-size:18px;">&nbsp;<strong>Call for Accredited Funds and Investors interested in learning about crypto industry innovations and projects.</strong></h1>
+                          <h3 style="color:gray;font-size:12px;color:#a0a0a0;">&nbsp;Dates</h3>
+                          <p style="font-size:14px;"> &nbsp;January-February, 2019</p>
+                          <h2 style="font-size:18px;">&nbsp;We can't wait to meet you in 2019.</h2>
+                          <a href="funds.php" class="btn btn-primary" style="background-color:rgba(0,0,0,0);border-color:#888888;box-shadow: 5px 10px 18px #888888;color:#283c64;">Submit your Details here</a>
+                          </h4>
+
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-lg-2 col-md-1 col-sm-1">
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <section id="contact">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2 text-center">
+                      <h2 style="color:black">Download section</h2>
+                      <hr class="style13">
+                      <p>Check out the Press Release and Crypto Assets Summit Brochure</p>
+                  </div>
+                  <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <a href="image/brochure.pdf"><img src="image/brochure.jpg" style="margin-bottom:5px;box-shadow: -15px 15px 10px #888888;" class="img-responsive" alt="res"></a>
+                  <br>
+                      <i class="fa fa-download fa-3x sr-contact"></i>
+                      <p><a href="image/brochure.pdf">St. Moritz Brochure</a></p>
+                  </div>
+                  <div class="col-lg-4 text-center">
+                    <a href="image/release.pdf"><img src="image/release.jpg" style="margin-bottom:5px;box-shadow: -15px 15px 10px #888888;" class="img-responsive" alt="res"></a>
+                 <br>
+                      <i class="fa fa-download fa-3x sr-contact"></i>
+                      <p><a href="image/release.pdf">Press Release</a></p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section>
+       <div class="container" style="width:100%;">
+         <div class="row">
+           <div class="col-lg-12">
+           <div class=" col-lg-offset-3 col-lg-6  col-md-offset-2 col-md-8  col-sm-offset-2 col-sm-8">
+             <a href="http://stmoritz.capitalexchange.tech">
+             <img src="image/moritz.jpg" style="margin:5px;" class="img-responsive img-rounded" alt="responsive"></a>
+           </div>
+           <div class=" col-lg-offset-3 col-lg-6  col-md-offset-2 col-md-8  col-sm-offset-2 col-sm-8" style="font-size:25px;color:black;text-align:justify;">
+             <br>
+             Wait and hold your seats for the crypto Assests and institutional Investor Summit at St. Moritz, Switzerland on 19-20 January, 2019!!
+
+
+            </div>
+           </div>
+       </div>
+     </div>
+     <br><br>
+     <center><a href="http://cryptoassets2019.eventbrite.com/" type="button" class="btn btn-danger" style="box-shadow: 5px 10px 8px black;padding:20px;font-size:20px;" name="button">Buy Tickets on Eventbrite</a></center>
+    </center>
+     </section>
+<br><br>
+     <section style="background-color:#4f1883;">
+      <div class="container" style="width:100%;">
+        <center>
+          <h1 class="w3-center" style="color:white;">Gallery</h1>
+        </center>
+        <br>
+        <center>
+          <div class="w3-content" style="max-width:600px;box-shadow: -15px 30px 18px black">
+              <img class="mySlides" src="photos/ico.jpg" style="width:100%">
+              <img class="mySlides" src="photos/ico0.jpg" style="width:100%">
+              <img class="mySlides" src="photos/ico1.jpg" style="width:100%">
+              <img class="mySlides" src="photos/ico2.jpg" style="width:100%">
+              <img class="mySlides" src="photos/ico3.jpg" style="width:100%">
+              <img class="mySlides" src="photos/ico4.jpg" style="width:100%">
+              <img class="mySlides" src="photos/ico5.jpg" style="width:100%">
+              <img class="mySlides" src="photos/ico6.jpg" style="width:100%">
+              <img class="mySlides" src="photos/ico7.jpg" style="width:100%">
+              <img class="mySlides" src="photos/ico8.jpg" style="width:100%">
+              <img class="mySlides" src="photos/ico9.jpg" style="width:100%">
+
+              <img class="mySlides" src="photos/pic1.jpg" style="width:100%">
+              <img class="mySlides" src="photos/pic2.jpg" style="width:100%">
+              <img class="mySlides" src="photos/pic3.jpg" style="width:100%">
+              <img class="mySlides" src="photos/pic4.jpg" style="width:100%">
+              <img class="mySlides" src="photos/pic5.jpg" style="width:100%">
+              <img class="mySlides" src="photos/pic6.jpg" style="width:100%">
+              <img class="mySlides" src="photos/pic7.jpg" style="width:100%">
+              <img class="mySlides" src="photos/pic8.jpg" style="width:100%">
+              <img class="mySlides" src="photos/pic9.jpg" style="width:100%">
+              <img class="mySlides" src="photos/pic10.jpg" style="width:100%">
+
+          </div>
+        </center>
+        <br><!--
+  <center>
+    <div class="w3-center">
+      <div class="w3-section">
+        <button class="w3-button w3-light-grey" style="background-color:red;color:white;border-color:red;" onclick="plusDivs(-1)">❮ Prev</button>
+        <button class="w3-button w3-light-grey" style="background-color:blue;color:white;border-color:blue;" onclick="plusDivs(1)">Next ❯</button>
+      </div>
+      </div>
+    </center>-->
+    </div>
+    <br><br><br>
+    </section>
+
+
+<div class="jumbotron" style="background-color:rgba(0,0,0,0);">
+  <center>
+  <p style="font-size:30px;color:black;">Let's Get In Touch!</p>
+</center>
+</div>
+   <!--contact-->
+   <section id="contact">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                   <!--<h2 class="section-heading">Let's Get In Touch!</h2>
+                   <hr class="style13">-->
+                   <p>Ready to know more about Himalaya Capital Exchange? That's great! Join us on Telegram or send us an email and we will get back to you as soon as possible!</p>
+               </div>
+               <br><br><br>
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 text-center">
+                   <i class="fa fa-telegram fa-3x sr-contact"></i>
+                   <p class="link"><a href="tg://resolve?domain=capitalcoinico">Telegram</a></p>
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 text-center">
+                   <i class="fa fa-facebook fa-3x sr-contact"></i>
+                   <p class="link"><a href="https://www.facebook.com/CapitalCoin11">Facebook</a></p>
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 text-center">
+                   <i class="fa fa-twitter fa-3x sr-contact"></i>
+                   <p class="link"><a href="https://twitter.com/CapitalCoinICO">Twitter</a></p>
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 text-center">
+                   <i class="fa fa-medium fa-3x sr-contact"></i>
+                   <p class="link"><a href="https://medium.com/@misskhan">Medium</a></p>
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 text-center">
+                   <i class="fa fa-youtube fa-3x sr-contact"></i>
+                   <p class="link"><a href="https://www.youtube.com/channel/UCVCH2nzRycVWhfnn3qGSM8Q">Youtube</a></p>
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 text-center">
+                   <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                   <p class="link"><a href="mailto:your-email@your-domain.com">team@himalayalabs.com</a></p>
+               </div>
+           </div>
+       </div>
+   </section>
+
+
+   <!--FOOTER-->
+   <!--
+      <footer style="background:#232e36;min-height:120px;">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 col-sm-12 pt-4" style="padding-left:0; padding-right:0;padding:30px;">
+                  <center><p class="follow"><e>Follow us at:</e></p>
+
+                  <ul class="ftrlog">
+                  <center>  <li style="display:inline" class="ml-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                         <a href="https://t.me/capitalcoinico" style="color:azure; "><img src="image/telegram.jpg" style="width: 30px" /></a>
+                     </li>
+                     &nbsp;
+
+                     <li style="display:inline" class="ml-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
+                         <a href="https://www.facebook.com/CapitalCoin11" style="color:azure;"><img src="image/facebook.jpg" style="width: 30px" /></a>
+                     </li>
+                      &nbsp;
+                     <li style="display:inline" class="ml-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s">
+                         <a href="https://twitter.com/CapitalCoinICO" style="color:azure;"><img src="image/twitter.png" style="width: 30px" /></a>
+                     </li>
+                      &nbsp;
+                     <li style="display:inline" class="ml-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s">
+                         <a href="https://medium.com/@misskhan" style="color:azure;"><img src="image/medium.png" style="width: 30px" /></a>
+                     </li>
+                      &nbsp;
+                     <li style="display:inline" class="ml-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s">
+                         <a href="https://www.youtube.com/channel/UCVCH2nzRycVWhfnn3qGSM8Q" style="color:azure;"><img src="image/youtube-512.png" style="width: 30px" /></a>
+                     </li>
+                      &nbsp;
+                     <li style="display:inline" class="ml-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s">
+                         <a href="http://himalayacrypto.show/" style="color:azure;"><img src="image/website.png" style="width: 30px" /></a>
+                     </li>
+                      &nbsp;
+                   </center>
+
+                  </ul>
+                  <br>
+                  <p class="ftrcpr" style="color:white;">Copyright © Himalaya Labs Limited</p>
+                </center>
+              </div>
+          </div>
+      </div>
+    </footer>
+  -->
+
+
+
+  <!--
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function currentDiv(n) {
+    showDivs(slideIndex = n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" w3-red", "");
+    }
+    x[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " w3-red";
+  }
+  </script>-->
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
+
+
+    <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>
